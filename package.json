@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "sidefolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,32 +14,22 @@
     "@next/mdx": "^14.2.3",
     "@tabler/icons-react": "^3.5.0",
     "@tailwindcss/typography": "^0.5.13",
-    "@types/node": "20.14.1",
-    "@types/react": "18.3.3",
-    "autoprefixer": "10.4.19",
+    "@types/node": "^20.14.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
     "clsx": "^2.1.1",
-    "eslint": "9.4.0",
-    "eslint-config-next": "14.2.3",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.3",
     "framer-motion": "^11.2.10",
-    "postcss": "8.4.38",
+    "next": "^14.2.3",
+    "postcss": "^8.4.38",
+    "prismjs": "^1.29.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "remark-gfm": "^4.0.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss": "3.4.3",
-    "typescript": "5.4.5"
-
-
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
   }
 }

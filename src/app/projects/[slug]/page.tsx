@@ -1,8 +1,13 @@
 import { Container } from "@/components/Container";
+import { Heading } from "@/components/Heading";
+import { Highlight } from "@/components/Highlight";
+import { Paragraph } from "@/components/Paragraph";
 import { SingleProduct } from "@/components/Product";
+import { Products } from "@/components/Products";
 import { products } from "@/constants/products";
 import { Product } from "@/types/products";
 import { Metadata } from "next";
+import Image from "next/image";
 import { redirect } from "next/navigation";
 
 type Props = {
@@ -22,9 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   } else {
     return {
-      title: "Projects | Ali Chowdhury",
+      title: "Projects | John Doe",
       description:
-        "Ali Chowdhury is a developer, foodie, EV and tech enthusiast.",
+        "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
     };
   }
 }
